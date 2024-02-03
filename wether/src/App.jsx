@@ -4,7 +4,7 @@ import Wether from './Component/Wether'
 export default function App() {
   return (
     <main>
-    <Wether/>
+      <Wether />
     </main>
   )
 }

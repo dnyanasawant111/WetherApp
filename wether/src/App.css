@@ -1,33 +1,27 @@
 body {
   text-align: center;
   vertical-align: center;
-padding:50px;
-  background-image: url("https://cdn.wallpapersafari.com/84/27/BSo1wf.jpg");
+  padding: 50px;
+  background-image: url("../public/Images/bg.jpg");
   background-repeat: no repeat;
-  
-}
-.gridd{
-  font-size:30px;
-    font-family: "Franklin Gothic Medium";
-color:firebrick;
-  display:inline-block;
-padding:5px;
- border: 5px solid red;
-  border-radius: 45px;
- 
 
-        background-image: url("https://img.freepik.com/premium-photo/pink-abstract-watercolor-background_3590-36.jpg");
-  background-repeat: no repeat;
 }
-.img{
- width:100px;
-  
-  
+
+.gridd {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium";
+  color: white;
+  justify-content: center;
 }
-.img1{
- width:40px;
-  height:30px;
-  
+
+.img {
+  width: 100px;
+}
+
+.img1 {
+  width: 40px;
+  height: 30px;
+
 }
 
 @media screen and (min-width: 694px) and (max-width: 915px) {
@@ -35,14 +29,27 @@ padding:5px;
     max-width: 100%;
   }
 }
+
 @media screen and (min-width: 652px) and (max-width: 693px) {
   .gridd {
     max-width: 100%;
   }
 }
+
 @media screen and (max-width: 651px) {
   .gridd {
     max-width: 100%;
     margin: auto;
   }
+}
+
+.location-name {
+  color: chocolate !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.get-btn:hover {
+  background-color:palegreen;
+  border: none;
 }
